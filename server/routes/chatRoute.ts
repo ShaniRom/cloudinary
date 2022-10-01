@@ -2,7 +2,7 @@ import express from 'express';
 const router = express.Router();
 
 
-import {addMessage,deleteMessage,updateMessage,getMessages,saveImage} from '../controllers/chatCont'
+import {addMessage,deleteMessage,updateMessage,getMessages,saveImage} from './controllers/chatCont'
 //import {getMessages} from '../../client/src/features/reducers/chatAPI'
 
 

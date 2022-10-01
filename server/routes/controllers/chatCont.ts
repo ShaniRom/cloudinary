@@ -1,4 +1,4 @@
-import Message from "../models/chatModel";
+import Message from "../../models/chatModel";
 const cloudinary=require('cloudinary').v2
  
 
