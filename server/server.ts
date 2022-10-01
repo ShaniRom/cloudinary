@@ -23,7 +23,7 @@ mongoose
 
 
 
-import chatRoutes from './server/routes/chatRoute'
+import chatRoutes from './routes/chatRoute'
 app.use('/chat', chatRoutes)
 
 app.listen(port, () => {
